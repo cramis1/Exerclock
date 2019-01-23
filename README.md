@@ -37,7 +37,7 @@ Units/thresholds are taken from source (e.g., from xdrip) or as inputted manuall
 On alerts, 'Mute' is for 4 HOURS, 'Snooze' is for as many minutes as set in the settings (default 15 minutes). 
 Snooze and mute should ALSO snooze alert on xdrip/spike.
 
--In the settings you can select whether you would like the snooze and mute to clear when BG is back in range.
+In the settings you can select whether you would like the snooze and mute to clear when BG is back in range.
 
 **DO NOT USE FOR ANY MEDICAL/TREATMENT PURPOSES!**
 
