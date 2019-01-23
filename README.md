@@ -24,8 +24,9 @@ Exercise app for Fitbit OS that includes CGM
    - Select whether you would like to disable all alerts (except very low)
 - If you would like to change to a 24 hour clock or to a 12 hour clock, go to change the 'Clock Display Time' preference on your fitbit profile: https://www.fitbit.com/settings/profile. 
 
-- Note that only **run, hiking, walk, cycling, and golf support GPS**
-- Note that the **pause button** appears only after resolving the GPS signal (if there is one to get).
+Note that only **run, hiking, walk, cycling, and golf support GPS**
+
+Note that the **pause button** appears only after resolving the GPS signal (if there is one to get).
 
 BG readings are fetched around every 2 minutes. 
 
@@ -33,12 +34,8 @@ Units/thresholds are taken from source (e.g., from xdrip) or as inputted manuall
 
 'Disable alert' should disable all alerts except very low.
 
-There is now an option to only alert if the watch is detected as being worn. This will prevent the watch from losing all its batteries for an alert when it is not being worn and a person is not there to snooze the alarm.
-
 On alerts, 'Mute' is for 4 HOURS, 'Snooze' is for as many minutes as set in the settings (default 15 minutes). 
 Snooze and mute should ALSO snooze alert on xdrip/spike.
-
--An |S| indicates a snooze is ongoing; a |M| indicates a mute is ongoing; a |D| indicates that alerts have been disabled.
 
 -In the settings you can select whether you would like the snooze and mute to clear when BG is back in range.
 
