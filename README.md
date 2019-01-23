@@ -24,9 +24,9 @@ Exercise app for Fitbit OS that includes CGM
    - Select whether you would like to disable all alerts (except very low)
 - If you would like to change to a 24 hour clock or to a 12 hour clock, go to change the 'Clock Display Time' preference on your fitbit profile: https://www.fitbit.com/settings/profile. 
 
-Note that only **run, hiking, walk, cycling, and golf support GPS**
+When opening the app, you will first be presented with a clickable list to select your exercise. Note that only **run, hiking, walk, cycling, and golf support GPS**
 
-Note that the **pause button** appears only after resolving the GPS signal (if there is one to get).
+Note that once the exercise is started, the **pause button** appears only after resolving the GPS signal (if there is one to get).
 
 BG readings are fetched around every 2 minutes. 
 
