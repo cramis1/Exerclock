@@ -39,6 +39,8 @@ Snooze and mute should ALSO snooze alert on xdrip/spike.
 
 In the settings you can select whether you would like the snooze and mute to clear when BG is back in range.
 
+MAKE SURE TO have your phone in bluetooth range of the watch. And ensure that the fitbit app is permitted to run in the background.
+
 **DO NOT USE FOR ANY MEDICAL/TREATMENT PURPOSES!**
 
 Twitter: @cramis123
