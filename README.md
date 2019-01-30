@@ -1,7 +1,7 @@
 # Exerclock
 Exercise app for Fitbit OS that includes CGM
 
-**If you do not know how to load from the developer menu, please look for this app in the fitbit clock face gallery as "Exerclock Exercie with CGM". Or click on this link from your phone: [Marclock CGM & Weather](https://gam.fitbit.com/gallery/app/f8c1202a-7367-4327-adf6-37be5c377976)**
+**If you do not know how to load from the developer menu, please look for this app in the fitbit clock face gallery as "Exerclock Exercie with CGM". Or click on this link from your phone: [Marclock CGM & Weather](https://gam.fitbit.com/gallery/app/f483f7c4-b592-4760-a50b-234ef75cc912)**
 
 # Instructions
 
@@ -13,7 +13,7 @@ Exercise app for Fitbit OS that includes CGM
   - If you are using **NightScout** you can follow these instructions: http://www.nightscout.info/wiki/welcome/set-up-nightscout-using-heroku. 
     - You will then have a URL address that looks like **https://YOURADDRESS.herokuapp.com**
 
-- Starting on your phone, navigate to the [latest version of Exerclock](https://gam.fitbit.com/gallery/app/f8c1202a-7367-4327-adf6-37be5c377976) and click the **Select** button. Then click **install**. 
+- Starting on your phone, navigate to the [latest version of Exerclock](https://gam.fitbit.com/gallery/app/f483f7c4-b592-4760-a50b-234ef75cc912) and click the **Select** button. Then click **install**. 
 - After the installation has finished open the **Fitbit** app and navigate to **clock faces** then click the **green gear** to access **Exerclock's settings**.
 - Once in settings:  
   - Select your Data Source: either **xDrip** ,  **spike** , or **nightscout**
