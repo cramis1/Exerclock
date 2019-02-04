@@ -1,7 +1,7 @@
 # Exerclock
 Exercise app for Fitbit OS that includes CGM
 
-**If you do not know how to load from the developer menu, please look for this app in the fitbit clock face gallery as "Exerclock Exercie with CGM". Or click on this link from your phone: [Marclock CGM & Weather](https://gam.fitbit.com/gallery/app/f483f7c4-b592-4760-a50b-234ef75cc912)**
+**Please look for this app in the fitbit clock face gallery as "Exerclock". Or click on this link from your phone: [Exerclock](https://gam.fitbit.com/gallery/app/f483f7c4-b592-4760-a50b-234ef75cc912)**
 
 # Instructions
 
