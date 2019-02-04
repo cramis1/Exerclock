@@ -26,7 +26,7 @@ Exercise app for Fitbit OS that includes CGM
 
 When opening the app, you will first be presented with a clickable list to select your exercise. Note that only **run, hiking, walk, cycling, and golf support GPS**
 
-Note that once the exercise is started, the **pause button** appears only after resolving the GPS signal (if there is one to get).
+Note that speed and distance will only start being recorded after the GPS signal is connected (if there is one to get). The app will give a slight vibration after it has connected to GPS to let you know distance and speed are now being tracked.
 
 BG readings are fetched around every 2 minutes. 
 
