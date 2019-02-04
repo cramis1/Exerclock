@@ -44,3 +44,5 @@ MAKE SURE TO have your phone in bluetooth range of the watch. And ensure that th
 **DO NOT USE FOR ANY MEDICAL/TREATMENT PURPOSES!**
 
 Twitter: @cramis123
+
+Thanks to the fitbit clockfaces published by PedanticAvenger (FlashCGM) and Rytiggy (Glance) for helping with the CGM code.
