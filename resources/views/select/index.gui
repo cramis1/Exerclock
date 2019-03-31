@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="styles.css" />
+
+<svg id="view-select" display="none">
+  
+  
+  
+  
+  
+  <image href="images/bg.png" x="50%" height="50%" width="50%"/>
+
+  <text y="10%" x="8" font-size="35" fill="white">get</text>
+  <text y="22%" x="8" font-size="35" fill="white">ready</text>
+  <text y="34%" x="8" font-size="35" fill="white">to:</text>
+  <text id="lblTitle" y="55%" font-size="45" fill="white" font-weight="bold">Exercise Name</text>
+
+  <use id="btnStart" href="#combo-button-lower-right" fill="lime" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_combo_play_press_p.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_combo_play_press_p.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+
+
+
+</svg>

@@ -1,0 +1,39 @@
+{
+  "fitbit": {
+    "appUUID": "f483f7c4-b592-4760-a50b-234ef75cc912",
+    "appType": "app",
+    "appDisplayName": "Exerclock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#4caf50",
+    "requestedPermissions": [
+      "access_activity",
+      "access_exercise",
+      "access_heart_rate",
+      "access_location",
+      "access_user_profile",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Exerclock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.0.2"
+  },
+  "name": "Exerclock",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

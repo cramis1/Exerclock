@@ -1,0 +1,15 @@
+#lblStatus {
+  x: 45%;
+  y: 24%;
+  text-length: 20;
+  text-anchor: middle;
+}
+
+#boxStats {
+  x: 45%;
+  y: 28%;
+  width: 100%-16;
+  height: 160;
+  text-length: 225;
+  text-anchor: middle;
+}

@@ -1,0 +1,69 @@
+
+<link rel="stylesheet" href="styles.css" />
+
+<svg id="view-exercise" display="none">
+  
+  
+  
+  <use id="subview-gps2" href="#subview-gps" />
+
+  <use id="subview-clock" href="#subview-clock" />
+
+  <svg id="boxStats">
+    <svg class="item">
+      <use id="subview-hrm" href="#subview-hrm" />
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblSpeed" text-anchor="middle" class="bignumber">00000</text>
+      <text id="lblSpeedUnits" text-anchor="middle" class="label">speed kph</text>/text>
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblSpeedrev" class="bignumber">00000</text>
+      <text id="lblSpeedrevUnits" class="label">speed mins/kilometres</text>
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblSpeedAvg" text-anchor="middle" class="bignumber">00000</text>
+      <text id="lblSpeedAvgUnits" text-anchor="middle" class="label">speed avg kph</text>
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblSpeedMax" text-anchor="middle" class="bignumber">00000</text>
+      <text id="lblSpeedMaxUnits" text-anchor="middle" class="label">speed max kph</text>
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblDistance" text-anchor="middle" class="bignumber">00000</text>
+      <text id="lblDistanceUnits" text-anchor="middle" class="label">distance kilometers</text>
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblActiveTime" text-anchor="middle" class="bignumber">00000</text>
+      <text class="label" text-anchor="middle" >active time</text>
+    </svg>
+    <svg class="item" display="none">
+      <text id="lblCalories" text-anchor="middle" class="bignumber">0</text>
+      <text class="label" text-anchor="middle">calories</text>
+    </svg>
+    <rect id="touch" width="100%" height="100%" opacity="0" pointer-events="all" />
+  </svg>
+
+  <text id="lblStatus" />
+
+  <use id="btnFinish" href="#combo-button-upper-right" display="none" fill="lime" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_combo_flag_p.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_combo_flag_p.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+
+  <use id="btnToggle" href="#combo-button-lower-right" display="none" fill="lime" shortcut="none">
+    <set href="combo-button-icon" attributeName="href"
+          to="images/icons/btn_combo_pause_press_p.png" />
+    <set href="combo-button-icon-press" attributeName="href"
+          to="images/icons/btn_combo_pause_press_p.png" />
+    <set href="combo-button-stroke" attributeName="display" to="inline" />
+  </use>
+
+  <use id="popup" href="#subview-popup" display="none" />
+  
+  
+  
+</svg>

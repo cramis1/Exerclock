@@ -1,0 +1,272 @@
+<svg>
+  
+  
+   <symbol id="graphPop">
+    <svg>
+      
+   <rect id="bg" x="0" y="0" width="200%" height="200%" fill="black" /> 
+      
+      <line id="time1" x1="13%" y1="26" x2="13%" y2="150%" fill="white" opacity="0.3" stroke-width="1"/>
+      <line id="time2" x1="25%" y1="26" x2="25%" y2="150%" fill="white" opacity="0.3" stroke-width="1"/>
+      <line id="time3" x1="37%" y1="26" x2="37%" y2="150%" fill="white" opacity="0.3" stroke-width="1"/>
+      <line id="time4" x1="49%" y1="26" x2="49%" y2="150%" fill="white" opacity="0.3" stroke-width="1"/>
+      <line id="time5" x1="61%" y1="26" x2="61%" y2="150%" fill="white" opacity="0.3" stroke-width="1"/>
+      <line id="time6" x1="73%" y1="26" x2="73%" y2="150%" fill="white" opacity="0.3" stroke-width="1"/>
+      
+      <rect id="tRectHighPop" x="0" y="26" width="85%" height="15%" fill="#FFA500" opacity="0.2"/> 
+      <rect id="tRectLowPop" x="0" y="85%" width="85%" height="15%" fill="red" opacity="0.2"/>
+      <line id="tMidPop" x1="0" y1="15%" x2="85%" y2="15%" fill="white" opacity="0.3" stroke-width="1"/>
+      <line id="tHighPop" x1="0" y1="53%" x2="85%" y2="53%" fill="#FFA500" stroke-width="1"/>
+      <line id="tLowPop" x1="0" y1="85%" x2="85%" y2="85%" fill="red" stroke-width="1"/>
+      <text id="topPop" class="status-text" font-size="25" x="86%" y="25"  text-anchor="start">top</text>
+      <text id="highPop" class="status-text" font-size="25" x="86%" y="30%"  text-anchor="start">hi</text>
+      <text id="midPop" class="status-text" font-size="25" x="86%" y="53%"  text-anchor="start">mid</text>
+      <text id="lowPop" class="status-text" font-size="25" x="86%" y="88%"  text-anchor="start">low</text> 
+      <!-- <text id="bottomPop" class="status-text" x="86%" y="100%"  text-anchor="start">bot</text> -->
+      <text id="BGheading" fill="white" font-family="SevilleSharp-Bold" text-anchor="middle" x="50%" y="24">BG GRAPH</text>
+      
+      
+      <circle class="gval" cx="2%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="4%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="6%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="8%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="10%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="12%" cy="50%" r="2" fill="white" />
+      
+      <circle class="gval" cx="14%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="16%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="18%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="20%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="22%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="24%" cy="50%" r="2" fill="white"/>
+      
+      <circle class="gval" cx="26%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="28%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="30%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="32%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="34%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="36%" cy="50%" r="2" fill="white" />
+      
+      <circle class="gval" cx="38%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="40%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="42%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="44%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="46%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="48%" cy="50%" r="2" fill="white"/>
+      
+      <circle class="gval" cx="50%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="52%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="54%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="56%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="58%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="60%" cy="50%" r="2" fill="white"/>
+      
+      <circle class="gval" cx="62%" cy="50%" r="2" fill="white" />
+      <circle class="gval" cx="64%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="66%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="68%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="70%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="72%" cy="50%" r="2" fill="white"/>
+      
+      <circle class="gval" cx="74%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="76%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="78%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="80%" cy="50%" r="2" fill="white"/>
+      <circle class="gval" cx="82%" cy="50%" r="2" fill="white"/>
+      
+
+      
+    </svg>
+ </symbol>
+ 
+
+  
+  <!-- <gradientRect class="SVGobjects" id="gradbackgnd" x="0" y="0" width="100%" height="100%"
+    gradient-type="bilinear"
+    gradient-x1="30" gradient-y1="30"
+    gradient-x2="100%-50" gradient-y2="100%-50"
+    gradient-color1="#1dbbbb"
+    gradient-color2="black"
+    gradient-color3="black"
+    gradient-color4="#1c453b"
+    id="clickbg" pointer-events="visible" /> -->
+  
+  <svg id="BGobjects">
+  <text class="SVGobjects" id="delta" x="1%" y="74%" text-anchor="start" font-size="18" fill="white" text-length="65"> Connecting... </text>
+  <text class="SVGobjects" id="bg" x="1%" y="90%"  text-anchor="start" font-size="50" fill="white" text-length="65" font-family="SevilleSharp-Bold">??.0</text>
+  <text class="SVGobjects" id="minutes"  x="3%" y="97%" text-anchor="start" font-size="14" fill="white" text-length="65">Not Connected</text>
+  <line class="SVGobjects" id="strikeLine" x1="2" y1="83%" x2="100" y2="83%" fill="#708090" stroke-width="6" display="none" /> 
+  
+  
+  <svg>
+
+<rect id="rectangleT" width="62" height="62" x="34%" y="70%" fill="red" opacity="0.7" visibility="visible">  
+  <animate attributeName="fill-opacity" begin="load" repeatCount="indefinite" from="1" to="0.6" dur="0.8" />
+  </rect>
+<svg>
+<defs> 
+<symbol id="demoArrow">
+  
+  <g id="arrowG" pointer-events="visible" transform="translate(50%,50%)">
+    <animateTransform attributeType="rotate" from="0" to="-90" begin="click" dur="0" />
+
+          <image id="arrow" href="./resources/views/exercise/icons/even.png" visibility="visible"  width="100%" height="100%" x="-50%" y="-50%" />
+          
+           </g>
+    
+</symbol>
+</defs>
+</svg>
+
+<svg width="62" height="62" x="34%" y="65%">
+    <use id="arrowinstance" href="#demoArrow" width="100%" height="100%" />
+  </svg>
+
+<svg width="62" height="62" x="34%" y="75%">
+  
+    <use id="arrowlo" href="#demoArrow" width="100%" height="100%" y="-5%" />
+  
+</svg>  
+  
+  <svg width="62" height="62" x="34%" y="55%">
+ 
+    <use id="arrowhi" href="#demoArrow"  width="100%" height="100%" y="80%"/>
+  
+</svg>  
+  
+</svg>
+  
+  
+  </svg>
+
+  
+  <text id="avgBG"  x="8" y="97%" text-anchor="start" font-size="22" fill="lime" font-weight="bold" text-length="65" visibility="hidden">average BG:</text>
+  <link rel="import" href="views/select/index.gui" />
+  <link rel="import" href="views/exercise/index.gui" />
+  <link rel="import" href="views/end/index.gui" />
+  
+<svg>
+  <rect id="clickGraph" x="0%" y="71%" width="60%" height="29%" fill="blue" opacity="0" pointer-events="visible"/>
+  </svg>
+
+   <svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.gui" />
+    <symbol id="my-tile-item" href="#tile-list-item" focusable="false"
+            pointer-events="none" system-events="all">
+      <text id="text" />
+      <rect id="tile-divider-bottom" class="tile-divider-bottom" />
+      <rect id="touch-me" pointer-events="all" x="0" y="0" width="100%"
+            height="100%-2" opacity="0" />
+    </symbol>
+  </defs>
+  <use id="my-list" href="#tile-list">
+    <rect id="gradbackgnd" x="0" y="0" width="100%" height="100%" fill="black"/>
+    <var id="separator-height-bottom" value="2" />
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="run" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="treadmill" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="hiking" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="weights" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="cycling" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="elliptical" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="spinning" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="yoga" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="stair-climber" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="circuit-training" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="bootcamp" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="pilates" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="kickboxing" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="tennis" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="martial-arts" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="golf" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="walk" />
+    </use>
+    <use href="#my-tile-item" class="tile-list-item">
+      <set href="text" attributeName="text-buffer" to="workout" />
+    </use>
+    
+  </use>
+  </svg>
+  
+
+  
+  
+   <!-- Pop Up graph -->
+  <svg id="GraphScreen" display="none" >
+    <svg class="graphsetPop" >  
+      
+      <use href="#graphPop" id="docGraphPop" x="0" y="0%" width="100%" height="100%-50" />
+     
+        <rect id="button2" pointer-events="all" x="0" y="0" width="100%" height="100%" opacity="0" />
+  </svg>  
+  </svg>
+  
+  
+  
+  
+  <svg id="BGpopup" display="none" >
+        <!-- Black background -->
+        <rect class="full-size" fill="fb-black" />
+
+        <!-- Title and text -->
+        <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white" id="alertHeader">
+          <set href="#top-padding" attributeName="display" to="none" />
+          <set href="#header/text" attributeName="text-buffer"  to="------------" />
+          <set href="#header/text" attributeName="fill" to="fb-magenta"/>
+          <set href="#copy/text" attributeName="text-buffer" to="Check BG!" />
+          <set href="#bottom-padding" attributeName="display" to="none" />
+        </use>
+
+        <!-- Left button -->
+        <use id="btnLeft" class="dialog-half-button-left" href="#square-button-neutral">
+           <set href="#text" attributeName="text-buffer" to="Mute" /> <!--Change this to be 15 when you add the 15 min mute code in -->
+          <set href="#text" attributeName="text-anchor" to="middle" />
+        </use>
+
+        <!-- Right button -->
+        <use id="btnRight" class="dialog-half-button-right" href="#square-button-negative">
+          <set href="#text" attributeName="text-buffer" to="Snooze" />
+          <set href="#text" attributeName="text-anchor" to="middle" />
+        </use>
+      </svg>
+  
+  
+  
+</svg>

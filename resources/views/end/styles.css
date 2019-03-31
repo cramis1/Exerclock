@@ -1,0 +1,13 @@
+#lblTitle {
+  x: 8;
+  y: 65;
+  height: 25;
+}
+
+#view-end .label {
+  font-size: 22;
+  x: 8;
+  y: $+2;
+  fill: lime;
+  font-weight: bold;
+}
